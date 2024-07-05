@@ -1,0 +1,81 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U main%b		main.adb		5eff56ca NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20231119175110 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20231119182322 6692a31e
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imenne.ads		20110428140906 8707cbf0
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 9r7
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 9r11
+263U14*Put_Line 12|9s19
+X 12 main.adb
+3U11*Main 3b11 13l5 13t9
+4E9 abecedario 4e78 5r8 7r9 9r28 10r21 11r12
+4n24 A{4E9}
+4n26 B{4E9}
+4n28 C{4E9}
+4n30 D{4E9}
+4n32 E{4E9}
+4n34 F{4E9}
+4n36 G{4E9}
+4n38 H{4E9}
+4n40 I{4E9}
+4n42 J{4E9}
+4n44 K{4E9}
+4n46 L{4E9}
+4n48 M{4E9}
+4n50 N{4E9}
+4n52 Ñ{4E9}
+4n54 O{4E9}
+4n56 P{4E9}
+4n58 Q{4E9}
+4n60 R{4E9}
+4n62 S{4E9}
+4n64 T{4E9}
+4n66 U{4E9}
+4n68 V{4E9}
+4n70 W{4E9}
+4n72 X{4E9}
+4n74 Y{4E9}
+4n76 Z{4E9}
+5e4 abc{4E9} 7m4 9r45 10r17 11m7 11r28
+

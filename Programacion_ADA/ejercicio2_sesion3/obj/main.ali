@@ -1,0 +1,104 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnvnvnnnnnnnnvnnvnvnvvnvnnvnnnnnnnvnnvnvnnnnvnvnnnnnnvnnvnnnnvnnnv2nv1nv1+nnnnnn
+
+U main%b		main.adb		6d66dbed NE OO SU
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W calendar%s		calendar.ads		calendar.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-caldel.ads		20110428140858 9f20b83d
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-reatim.ads		20110428140902 63f07669
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D calendar.ads		20110428140902 2cb525cd
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20231127211350 0405d8e9
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imglld.ads		20110428140906 f3220969
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tpoben.ads		20110428140908 e8374469
+D s-tasren.ads		20110428140908 86fa7427
+D s-tassta.ads		20110428140908 e88ef99e
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 2 a-calend.ads
+38I9*Time 18|19r29 31r22
+50O12*Day_Duration{duration} 18|23r62 37r63
+52V13*Clock{38I9} 18|19s37 21s13 23s98 31s30 36s33 37s99 42s16
+61V13*Seconds{50O12} 18|23s90 37s91
+94V13*"+"{38I9} 18|19s43
+97V13*"-"{duration} 18|42s22
+103V13*"<"{boolean} 18|21s19
+X 11 a-textio.ads
+263U14*Put_Line 18|23s24 37s24 47s15
+X 13 calendar.ads
+18K9*Calendar=18:30 18|2w6 3r5 23r53 23r81 37r54 37r82
+X 18 main.adb
+5U11*Main 5b11 52l5 52t9
+7T14 TareaRecepcion 9l8 9e22 13r8 29b14 48l8 48t22
+8Y13 Mensaje 8>21 8<42 22s13 35b20 39l17 39t24
+8i21 Entrada{integer}
+8s42 Cadena{string}
+11T14 TareaEnvio 14r8 16b14 27l8 27t18
+13t4 TR{7T14} 22r10
+14t4 TE{11T14}
+17a7 Cadena{string} 22m24 22r24
+18o7 Intervalo{duration} 25r16
+19i7 TiempoFinal{2|38I9} 21r21
+30o7 Timeout{duration} 41r19 42r41
+31i7 UltimoMensaje{2|38I9} 36m16 42r24
+35i28 Entrada{integer}
+35s49 Cadena{string}
+X 51 text_io.ads
+24K9*Text_IO=24:29 18|1w6 23r16 37r16 47r7
+

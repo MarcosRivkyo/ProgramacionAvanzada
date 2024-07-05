@@ -1,0 +1,5 @@
+project Ejercicio1_Sesion4 is
+    for Source_Dirs use ("src");
+    for Object_Dir use "obj";
+    for Main use ("ejercicio1.adb");
+end Ejercicio1_Sesion4;

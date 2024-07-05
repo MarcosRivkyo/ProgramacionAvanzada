@@ -1,0 +1,78 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnn
+
+U ejercicio3%b		ejercicio3.adb		38fb2ef5 NE OO SU
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D ejercicio3.adb	20231126122306 7d2d083c
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D system.ads		20110428140910 bc164b96
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D text_io.ads		20110428140910 45d626c9
+X 8 a-textio.ads
+249U14*Get_Line 10|122s12
+263U14*Put_Line 10|73s21 121s12 128s12
+X 10 ejercicio3.adb
+3U11*Ejercicio3 3b11 133l5 133t15
+5a4 cadena{string} 68r16 103r37 108r41 109r56 111r66 122m21 122r21
+6i4 elementos{integer} 66r19 102r22 122m29 122r29
+8R9 correspondencia 12e17 14r36
+10e10 Letra{character} 19m17 22m17 25m17 28m17 31m17 34m17 37m17 40m17 43m17
+. 46m18 49m18 52m18 55m18 58m18 68r41 87r30
+11i10 Valor{integer} 20m17 23m17 26m17 29m17 32m17 35m17 38m17 41m17 44m17
+. 47m18 50m18 53m18 56m18 59m18 90r38
+14A9 almacen(8R9)<integer> 16r14
+16a4 traductor{14A9} 19m4 20m4 22m4 23m4 25m4 26m4 28m4 29m4 31m4 32m4 34m4
+. 35m4 37m4 38m4 40m4 41m4 43m4 44m4 46m4 47m4 49m4 50m4 52m4 53m4 55m4 56m4
+. 58m4 59m4 68r28 87r17 90r25
+17U14 llenar_traductor 17b14 61l8 61t24 124s4
+63V13 comprobar_numero{integer} 63b13 80l8 80t24 125s7
+64b7 flag{boolean} 69m16 72r13 76m13
+66i11 i{integer} 68r23
+67i14 j{integer} 68r38
+82V13 traducir_simple{integer} 82b13 82>29 96l8 96t23 103s21 108s25 109s40
+. 111s50
+82e29 L{character} 87r13
+83i4 traduccion{integer} 90m13 95r14
+84b4 bandera{boolean} 91m13 92r23
+86i11 i{integer} 87r27 90r35
+98i4 resultado{integer} 105m17 105r29 109m16 109r28 111m16 111r28 114m16
+. 114r27 128r85
+99U14 traducir 99b14 119l8 119t16 127s4
+100i7 numero{integer} 103m13 105r41 108r16 111r41 114r37
+102i14 i{integer} 103r44 104r16 108r48 109r63 111r73
+X 32 text_io.ads
+24K9*Text_IO=24:29 10|1w6 73r13 121r4 122r4 128r4
+
